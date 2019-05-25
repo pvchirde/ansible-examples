@@ -1,0 +1,326 @@
+13:14:10,787 INFO anaconda: /sbin/anaconda 21.48.22.147-1
+13:14:11,256 INFO anaconda: created new libuser.conf at /tmp/libuser.Qbppcr with instPath="/mnt/sysimage"
+13:14:11,259 INFO anaconda: 4063232 kB (3968 MB) are available
+13:14:11,305 INFO anaconda: check_memory(): total:3968, needed:320, graphical:410
+13:14:11,344 INFO anaconda: anaconda called with cmdline = ['/sbin/anaconda']
+13:14:11,346 INFO anaconda: Default encoding = utf-8 
+13:14:11,403 INFO anaconda: Parsing kickstart: /usr/share/anaconda/interactive-defaults.ks
+13:14:12,148 DEBUG anaconda: setting locale to: en_US.UTF-8
+13:14:12,180 DEBUG anaconda: network: devices found ['eth0']
+13:14:12,193 DEBUG anaconda: network: ensure single initramfs connections
+13:14:12,244 DEBUG anaconda: network: apply kickstart
+13:14:12,245 DEBUG anaconda: network: create missing ifcfg files
+13:14:12,338 DEBUG anaconda: network: ifcfg file for eth0 not found
+13:14:12,482 DEBUG anaconda: network: missing ifcfgs created for devices ['eth0']
+13:14:12,517 DEBUG anaconda: network: set real ONBOOT value
+13:14:12,518 DEBUG anaconda: updating hostname localhost.localdomain
+13:14:12,583 INFO anaconda: Running Thread: AnaWaitForConnectingNMThread (140535870514944)
+13:14:12,597 INFO anaconda: Thread Done: AnaWaitForConnectingNMThread (140535870514944)
+13:14:12,601 WARN anaconda.stdout: Not asking for VNC because we don't have a network
+13:14:12,605 INFO anaconda: Display mode = g
+13:14:12,607 INFO anaconda: 4063232 kB (3968 MB) are available
+13:14:12,624 INFO anaconda: check_memory(): total:3968, needed:320, graphical:410
+13:14:12,626 DEBUG anaconda: Setting timeout 60 seconds for starting X.
+13:14:15,208 DEBUG anaconda: X server has signalled a successful start.
+13:14:15,489 INFO anaconda: spice-vdagent exited with status 1
+13:14:17,258 WARN anaconda: /usr/lib/python2.7/site-packages/meh/ui/gui.py:23: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk
+
+13:14:17,452 DEBUG anaconda: Searching /usr/lib64/python2.7/site-packages/pyanaconda/installclasses.
+13:14:17,461 DEBUG anaconda: Found Red Hat Enterprise Linux (RHELBaseInstallClass).
+13:14:17,462 DEBUG anaconda: Found Red Hat Enterprise Linux Atomic Host (RHELAtomicInstallClass).
+13:14:17,463 DEBUG anaconda: Found CentOS Atomic Host (RHELAtomicInstallClass).
+13:14:17,464 DEBUG anaconda: Found CentOS Linux (RHELBaseInstallClass).
+13:14:17,466 DEBUG anaconda: Found oVirt Node Next (OvirtBaseInstallClass).
+13:14:17,467 DEBUG anaconda: Found Red Hat Virtualization (RHEVInstallClass).
+13:14:17,467 DEBUG anaconda: Found Fedora (FedoraBaseInstallClass).
+13:14:17,468 INFO anaconda: Using a visible install class CentOS Linux (RHELBaseInstallClass).
+13:14:19,263 INFO anaconda: boot loader GRUB2 on X86 platform
+13:14:19,465 DEBUG anaconda: LABEL=OEMDRV matches [] for devicetree=None and disks_only=True
+13:14:19,468 INFO anaconda: Running Thread: AnaStorageThread (140535870514944)
+13:14:19,493 INFO anaconda: Running Thread: AnaTimeInitThread (140535604438784)
+13:14:19,505 INFO anaconda: Geolocation is enabled.
+13:14:19,506 ERR anaconda: Geolocation refresh failed - no connectivity
+13:14:19,507 INFO anaconda: Running Thread: AnaPayloadRestartThread (140535596046080)
+13:14:19,511 INFO anaconda: Thread Done: AnaPayloadRestartThread (140535596046080)
+13:14:19,511 INFO anaconda: Running Thread: AnaPayloadThread (140535587653376)
+13:14:21,166 DEBUG anaconda: Detected primary monitor: 1152x864 95dpix 95dpiy
+13:14:22,857 INFO anaconda: boot loader GRUB2 on X86 platform
+13:14:23,109 INFO anaconda: Thread Done: AnaStorageThread (140535870514944)
+18:44:24,006 INFO anaconda: Thread Done: AnaTimeInitThread (140535604438784)
+18:44:24,045 INFO anaconda: Thread Done: AnaPayloadThread (140535587653376)
+18:44:24,388 DEBUG anaconda: setting locale to: en_US.UTF-8
+18:44:24,392 DEBUG anaconda: setting locale to: en_US.UTF-8
+18:44:24,396 DEBUG anaconda: Entered spoke: WelcomeLanguageSpoke
+18:44:28,531 DEBUG anaconda: setting locale to: en_IN.UTF-8
+18:44:30,526 DEBUG anaconda: setting locale to: en_IN.UTF-8
+18:44:30,526 INFO anaconda: geolocation not finished in time, using default timezone
+18:44:30,662 DEBUG anaconda: network standalone spoke (init): completed: True
+18:44:30,681 DEBUG anaconda: Left spoke: WelcomeLanguageSpoke
+18:44:30,682 DEBUG anaconda: Entered hub: SummaryHub
+18:44:30,688 INFO anaconda: Adding controller: SummaryHub
+18:44:30,993 INFO anaconda: Running Thread: AnaNTPserver1 (140535604438784)
+18:44:31,008 INFO anaconda: Running Thread: AnaNTPserver2 (140535870514944)
+18:44:31,023 INFO anaconda: Running Thread: AnaNTPserver3 (140535596046080)
+18:44:31,031 INFO anaconda: Running Thread: AnaNTPserver4 (140535524275968)
+18:44:31,038 INFO anaconda: Running Thread: AnaDateTimeThread (140535515883264)
+18:44:31,134 INFO anaconda: Thread Done: AnaNTPserver1 (140535604438784)
+18:44:31,136 INFO anaconda: Thread Done: AnaNTPserver3 (140535596046080)
+18:44:31,145 INFO anaconda: Thread Done: AnaNTPserver2 (140535870514944)
+18:44:31,163 INFO anaconda: Thread Done: AnaNTPserver4 (140535524275968)
+18:44:31,330 INFO anaconda: Running Thread: AnaAddLayoutsInitThread (140535524275968)
+18:44:31,332 DEBUG anaconda: Starting applying <bound method AddLayoutDialog._addLayout of <pyanaconda.ui.gui.spokes.keyboard.AddLayoutDialog object at 0x7fd0ffec7990>> on <dictionary-keyiterator object at 0x7fd0f8bafc00>
+18:44:31,341 INFO anaconda: Running Thread: AnaGtkBatchPre1 (140535870514944)
+18:44:31,365 INFO anaconda: Thread Done: AnaGtkBatchPre1 (140535870514944)
+18:44:31,559 INFO anaconda: Running Thread: AnaKeyboardThread (140535870514944)
+18:44:31,632 INFO anaconda: Module initialized: LangsupportSpoke
+18:44:32,680 INFO anaconda: Running Thread: AnaSourceWatcher (140535596046080)
+18:44:32,755 INFO anaconda: using environment from kickstart: None
+18:44:32,762 INFO anaconda: Running Thread: AnaSoftwareWatcher (140535604438784)
+18:44:32,785 INFO anaconda: Running Thread: AnaStorageWatcher (140535496152832)
+18:44:32,788 INFO anaconda: Module initialized: StorageSpoke
+18:44:32,790 INFO anaconda: Thread Done: AnaStorageWatcher (140535496152832)
+18:44:32,827 INFO anaconda: Running Thread: AnaCustomStorageInit (140535496152832)
+18:44:32,914 INFO anaconda: Module initialized: FilterSpoke
+18:44:33,041 DEBUG anaconda: Dump missing interfaces in NetworkControlBox initialize method
+18:44:33,603 DEBUG anaconda: network: GUI, device configuration added: connection a1eb95a3-6fa7-4955-a51d-352b70b1e75f device eth0
+18:44:33,626 DEBUG anaconda: network: GUI, not adding connection a1eb95a3-6fa7-4955-a51d-352b70b1e75f, already in list
+18:44:33,738 DEBUG anaconda: updating hostname localhost.localdomain
+18:44:33,754 INFO anaconda: Module initialized: NetworkSpoke
+18:44:33,826 INFO anaconda: Initialization of all modules (9) has been started.
+18:44:33,829 INFO anaconda: Running Thread: OSCAPguiWaitForDataFetchThread (140535486711552)
+21:44:33,000 INFO anaconda: System time set to Wed Apr 10 18:44:33 2019 UTC
+21:44:33,000 INFO anaconda: System time set to Wed Apr 10 18:44:33 2019 UTC
+21:44:33,000 INFO anaconda: System time set to Wed Apr 10 18:44:33 2019 UTC
+00:14:33,000 INFO anaconda: System time set to Wed Apr 10 18:44:33 2019 UTC
+00:14:33,001 INFO anaconda: Module initialized: DatetimeSpoke
+00:14:33,001 INFO anaconda: Thread Done: AnaDateTimeThread (140535515883264)
+00:14:33,200 DEBUG anaconda: Environment selected for installation: minimal
+00:14:33,200 DEBUG anaconda: Groups selected for installation: []
+00:14:38,073 INFO anaconda: Running Thread: AnaCheckSoftwareThread (140535515883264)
+00:14:38,075 INFO anaconda: Module initialized: SoftwareSelectionSpoke
+00:14:38,076 INFO anaconda: Thread Done: AnaSoftwareWatcher (140535604438784)
+00:14:38,410 INFO anaconda: spoke is not ready: KeyboardSpoke
+00:14:38,412 INFO anaconda: setting KeyboardSpoke status to: Getting list of layouts...
+00:14:38,425 INFO anaconda: spoke is not ready: SoftwareSelectionSpoke
+00:14:38,441 INFO anaconda: spoke is not ready: SourceSpoke
+00:14:38,447 INFO anaconda: setting SourceSpoke status to: Setting up installation source...
+00:14:38,448 INFO anaconda: setting SourceSpoke status to: Probing storage...
+00:14:38,448 INFO anaconda: setting SourceSpoke status to: Testing availability...
+00:14:38,448 INFO anaconda: setting SourceSpoke status to: Downloading package metadata...
+00:14:38,466 INFO anaconda: spoke is ready: SoftwareSelectionSpoke
+00:14:38,498 INFO anaconda: spoke is ready: SourceSpoke
+00:14:38,499 INFO anaconda: setting SoftwareSelectionSpoke status to: Downloading package metadata...
+00:14:38,499 INFO anaconda: setting SoftwareSelectionSpoke status to: Downloading group metadata...
+00:14:38,502 INFO anaconda: setting StorageSpoke status to: Probing storage...
+00:14:38,528 INFO anaconda: spoke is ready: StorageSpoke
+00:14:38,532 INFO anaconda: setting OSCAPSpoke status to: Fetching content data
+00:14:38,541 INFO anaconda: spoke is not ready: OSCAPSpoke
+00:14:38,551 INFO anaconda: spoke is ready: DatetimeSpoke
+00:14:38,559 INFO anaconda: spoke is ready: SoftwareSelectionSpoke
+00:14:38,573 INFO anaconda: spoke is not ready: SoftwareSelectionSpoke
+00:14:38,582 INFO anaconda: spoke is not ready: SourceSpoke
+00:14:38,587 INFO anaconda: setting SoftwareSelectionSpoke status to: Checking software dependencies...
+00:14:38,829 DEBUG anaconda: Setting up repos: []
+00:14:39,050 DEBUG anaconda: OSCAP addon: waiting for all Anaconda spokes to be initialized
+00:14:40,204 INFO anaconda: Module initialized: CustomPartitioningSpoke
+00:14:40,204 INFO anaconda: Thread Done: AnaCustomStorageInit (140535496152832)
+00:14:42,699 INFO anaconda: Thread Done: AnaCheckSoftwareThread (140535515883264)
+00:14:42,777 INFO anaconda: spoke is ready: SoftwareSelectionSpoke
+00:14:42,787 INFO anaconda: spoke is ready: SourceSpoke
+00:14:42,838 INFO anaconda: Module initialized: SourceSpoke
+00:14:42,839 INFO anaconda: Thread Done: AnaSourceWatcher (140535596046080)
+00:14:43,135 INFO anaconda: spoke is ready: SourceSpoke
+00:14:45,186 DEBUG anaconda: Finished applying <bound method AddLayoutDialog._addLayout of <pyanaconda.ui.gui.spokes.keyboard.AddLayoutDialog object at 0x7fd0ffec7990>> on <dictionary-keyiterator object at 0x7fd0f8bafc00>
+00:14:45,186 INFO anaconda: Thread Done: AnaAddLayoutsInitThread (140535524275968)
+00:14:45,187 INFO anaconda: Module initialized: KeyboardSpoke
+00:14:45,187 INFO anaconda: All modules have been initialized.
+00:14:45,188 DEBUG anaconda: OSCAP addon: Anaconda init_done signal triggered
+00:14:45,188 INFO anaconda: Thread Done: AnaKeyboardThread (140535870514944)
+00:14:45,188 DEBUG anaconda: OSCAP addon: all Anaconda spokes have been initialized - continuing
+00:14:45,196 INFO anaconda: spoke is ready: KeyboardSpoke
+00:14:45,222 INFO anaconda: Thread Done: OSCAPguiWaitForDataFetchThread (140535486711552)
+00:14:45,297 INFO anaconda: spoke is ready: OSCAPSpoke
+00:14:45,299 INFO anaconda: setting OSCAPSpoke status to: No profile selected
+00:14:45,305 INFO anaconda: spoke is ready: OSCAPSpoke
+00:14:45,307 INFO anaconda: setting OSCAPSpoke status to: No profile selected
+00:14:45,314 INFO anaconda: spoke is ready: OSCAPSpoke
+00:14:45,316 INFO anaconda: setting OSCAPSpoke status to: No profile selected
+00:14:49,112 DEBUG anaconda: Entered spoke: StorageSpoke
+00:14:54,130 DEBUG anaconda: Left spoke: StorageSpoke
+00:14:54,134 INFO anaconda: Running Thread: AnaExecuteStorageThread (140535486711552)
+00:14:54,269 INFO anaconda: spoke is not ready: StorageSpoke
+00:14:54,280 INFO anaconda: setting StorageSpoke status to: Saving storage configuration...
+00:14:54,676 DEBUG anaconda: new disk order: []
+00:14:54,677 DEBUG anaconda: Bootloader: /boot partition is not present, dry run True
+00:14:54,678 DEBUG anaconda: Bootloader: fallback use first disk return from Blivet 'sda' as boot drive, dry run True
+00:14:54,841 DEBUG anaconda: _is_valid_disklabel(sda) returning True
+00:14:54,842 DEBUG anaconda: _is_valid_size(sda) returning True
+00:14:54,842 DEBUG anaconda: _is_valid_location(sda) returning True
+00:14:54,843 DEBUG anaconda: _is_valid_format(sda) returning True
+00:14:54,844 DEBUG anaconda: is_valid_stage1_device(sda) returning True
+00:14:55,543 DEBUG anaconda: new disk order: []
+00:14:55,545 DEBUG anaconda: Bootloader: use /boot partition's disk 'sda' as boot drive, dry run False
+00:14:55,554 DEBUG anaconda: stage1 device cannot be of type lvmvg
+00:14:55,556 DEBUG anaconda: stage1 device cannot be of type lvmlv
+00:14:55,557 DEBUG anaconda: stage1 device cannot be of type lvmlv
+00:14:55,558 DEBUG anaconda: stage1 device cannot be of type lvmlv
+00:14:55,560 DEBUG anaconda: _is_valid_disklabel(sda) returning True
+00:14:55,560 DEBUG anaconda: _is_valid_size(sda) returning True
+00:14:55,561 DEBUG anaconda: _is_valid_location(sda) returning True
+00:14:55,562 DEBUG anaconda: _is_valid_format(sda) returning True
+00:14:55,562 DEBUG anaconda: is_valid_stage1_device(sda) returning True
+00:14:55,592 DEBUG anaconda: _is_valid_disklabel(sda) returning True
+00:14:55,592 DEBUG anaconda: _is_valid_size(sda) returning True
+00:14:55,593 DEBUG anaconda: _is_valid_location(sda) returning True
+00:14:55,594 DEBUG anaconda: _is_valid_format(sda) returning True
+00:14:55,595 DEBUG anaconda: is_valid_stage1_device(sda) returning True
+00:14:55,595 DEBUG anaconda: _is_valid_disklabel(sda1) returning True
+00:14:55,596 DEBUG anaconda: _is_valid_size(sda1) returning True
+00:14:55,597 DEBUG anaconda: _is_valid_location(sda1) returning True
+00:14:55,598 DEBUG anaconda: _is_valid_partition(sda1) returning True
+00:14:55,598 DEBUG anaconda: _is_valid_format(sda1) returning True
+00:14:55,599 DEBUG anaconda: is_valid_stage2_device(sda1) returning True
+00:14:55,603 DEBUG anaconda: Storage check started with constraints {'must_be_on_linuxfs': set(['/tmp', '/var', '/usr', '/home', '/', '/usr/lib', '/usr/share']), 'must_be_on_root': set(['/etc', '/bin', '/proc', '/sbin', '/dev', '/lib', 'lost+found', '/mnt', '/root']), 'min_ram': 410, 'req_partition_sizes': {}, 'min_root': Size('250 MiB'), 'must_not_be_on_root': set([]), 'root_device_types': set([]), 'min_partition_sizes': {'/boot': Size('200 MiB'), '/home': Size('100 MiB'), '/var': Size('384 MiB'), '/tmp': Size('50 MiB'), '/usr': Size('250 MiB')}}.
+00:14:55,605 DEBUG anaconda: Run sanity check verify_root.
+00:14:55,606 DEBUG anaconda: Run sanity check verify_partition_sizes.
+00:14:55,606 DEBUG anaconda: Run sanity check verify_partition_format_sizes.
+00:14:55,607 DEBUG anaconda: Run sanity check verify_bootloader.
+00:14:55,608 DEBUG anaconda: Run sanity check verify_gpt_biosboot.
+00:14:55,608 DEBUG anaconda: Run sanity check verify_swap.
+00:14:55,609 DEBUG anaconda: Run sanity check verify_swap_uuid.
+00:14:55,609 DEBUG anaconda: Run sanity check verify_mountpoints_on_linuxfs.
+00:14:55,610 DEBUG anaconda: Run sanity check verify_mountpoints_on_root.
+00:14:55,611 DEBUG anaconda: Run sanity check verify_mountpoints_not_on_root.
+00:14:55,611 DEBUG anaconda: Run sanity check verify_luks_devices_have_key.
+00:14:55,612 DEBUG anaconda: Storage check finished with success.
+00:14:55,612 DEBUG anaconda: new disk order: []
+00:14:55,683 DEBUG anaconda: sda matches [u'sda'] for devicetree=<blivet.devicetree.DeviceTree object at 0x7fd111e29c10> and disks_only=True
+00:14:55,694 DEBUG anaconda: stage1 device cannot be of type lvmvg
+00:14:55,696 DEBUG anaconda: stage1 device cannot be of type lvmlv
+00:14:55,698 DEBUG anaconda: stage1 device cannot be of type lvmlv
+00:14:55,699 DEBUG anaconda: stage1 device cannot be of type lvmlv
+00:14:55,701 DEBUG anaconda: _is_valid_disklabel(sda) returning True
+00:14:55,702 DEBUG anaconda: _is_valid_size(sda) returning True
+00:14:55,703 DEBUG anaconda: _is_valid_location(sda) returning True
+00:14:55,703 DEBUG anaconda: _is_valid_format(sda) returning True
+00:14:55,704 DEBUG anaconda: is_valid_stage1_device(sda) returning True
+00:14:55,708 INFO anaconda: Thread Done: AnaExecuteStorageThread (140535486711552)
+00:14:55,709 INFO anaconda: Running Thread: AnaCheckStorageThread (140535870514944)
+00:14:55,741 DEBUG anaconda: _is_valid_disklabel(sda) returning True
+00:14:55,743 DEBUG anaconda: _is_valid_size(sda) returning True
+00:14:55,743 DEBUG anaconda: _is_valid_location(sda) returning True
+00:14:55,744 DEBUG anaconda: _is_valid_format(sda) returning True
+00:14:55,745 DEBUG anaconda: is_valid_stage1_device(sda) returning True
+00:14:55,746 DEBUG anaconda: _is_valid_disklabel(sda1) returning True
+00:14:55,747 DEBUG anaconda: _is_valid_size(sda1) returning True
+00:14:55,747 DEBUG anaconda: _is_valid_location(sda1) returning True
+00:14:55,748 DEBUG anaconda: _is_valid_partition(sda1) returning True
+00:14:55,749 DEBUG anaconda: _is_valid_format(sda1) returning True
+00:14:55,750 DEBUG anaconda: is_valid_stage2_device(sda1) returning True
+00:14:55,753 DEBUG anaconda: Storage check started with constraints {'must_be_on_linuxfs': set(['/tmp', '/var', '/usr', '/home', '/', '/usr/lib', '/usr/share']), 'must_be_on_root': set(['/etc', '/bin', '/proc', '/sbin', '/dev', '/lib', 'lost+found', '/mnt', '/root']), 'min_ram': 410, 'req_partition_sizes': {}, 'min_root': Size('250 MiB'), 'must_not_be_on_root': set([]), 'root_device_types': set([]), 'min_partition_sizes': {'/boot': Size('200 MiB'), '/home': Size('100 MiB'), '/var': Size('384 MiB'), '/tmp': Size('50 MiB'), '/usr': Size('250 MiB')}}.
+00:14:55,754 DEBUG anaconda: Run sanity check verify_root.
+00:14:55,755 DEBUG anaconda: Run sanity check verify_partition_sizes.
+00:14:55,756 DEBUG anaconda: Run sanity check verify_partition_format_sizes.
+00:14:55,756 DEBUG anaconda: Run sanity check verify_bootloader.
+00:14:55,757 DEBUG anaconda: Run sanity check verify_gpt_biosboot.
+00:14:55,758 DEBUG anaconda: Run sanity check verify_swap.
+00:14:55,758 DEBUG anaconda: Run sanity check verify_swap_uuid.
+00:14:55,759 DEBUG anaconda: Run sanity check verify_mountpoints_on_linuxfs.
+00:14:55,760 DEBUG anaconda: Run sanity check verify_mountpoints_on_root.
+00:14:55,760 DEBUG anaconda: Run sanity check verify_mountpoints_not_on_root.
+00:14:55,761 DEBUG anaconda: Run sanity check verify_luks_devices_have_key.
+00:14:55,762 DEBUG anaconda: Storage check finished with success.
+00:14:55,762 INFO anaconda: Thread Done: AnaCheckStorageThread (140535870514944)
+00:14:55,778 INFO anaconda: fs space: 50 GiB  needed: 1124.6 MiB
+00:14:55,808 INFO anaconda: spoke is ready: StorageSpoke
+00:14:55,812 INFO anaconda: fs space: 50 GiB  needed: 1124.6 MiB
+00:14:55,848 INFO anaconda: spoke is not ready: StorageSpoke
+00:14:55,849 INFO anaconda: setting StorageSpoke status to: Checking storage configuration...
+00:14:55,852 INFO anaconda: fs space: 50 GiB  needed: 1124.6 MiB
+00:14:55,877 INFO anaconda: spoke is ready: StorageSpoke
+00:14:56,395 DEBUG anaconda: Entered spoke: NetworkSpoke
+00:14:59,488 INFO anaconda: network: device eth0 switched on
+00:14:59,917 INFO anaconda: setting NetworkSpoke status to: Connecting...
+00:15:21,992 INFO anaconda: network: configuring connection a1eb95a3-6fa7-4955-a51d-352b70b1e75f device eth0 ssid None
+00:15:37,610 DEBUG anaconda: nm-c-e exited with status 0
+00:15:40,408 INFO anaconda: setting installation environment hostname to ansible1
+00:15:43,953 DEBUG anaconda: updating hostname ansible1
+00:15:43,967 DEBUG anaconda: network: apply ksdata # Network information
+network  --bootproto=dhcp --device=eth0 --onboot=off --ipv6=auto --no-activate
+network  --hostname=ansible1
+
+00:15:43,969 DEBUG anaconda: network spoke (apply), network configuration changed - skipping restart of payload thread, payload does not need network
+00:15:43,970 DEBUG anaconda: Left spoke: NetworkSpoke
+00:15:44,033 INFO anaconda: fs space: 50 GiB  needed: 1124.6 MiB
+00:15:45,236 INFO anaconda: setting NetworkSpoke status to: Not connected
+00:15:45,389 INFO anaconda: setting NetworkSpoke status to: Not connected
+00:15:52,883 DEBUG anaconda: Entered spoke: NetworkSpoke
+00:15:59,176 INFO anaconda: network: device eth0 switched on
+00:15:59,613 INFO anaconda: setting NetworkSpoke status to: Connecting...
+00:16:07,144 INFO anaconda: setting installation environment hostname to ansible1
+00:16:09,868 DEBUG anaconda: updating hostname ansible1
+00:16:09,882 DEBUG anaconda: network: apply ksdata # Network information
+network  --bootproto=dhcp --device=eth0 --onboot=off --ipv6=auto --no-activate
+network  --hostname=ansible1
+
+00:16:09,884 DEBUG anaconda: network spoke (apply), network configuration changed - skipping restart of payload thread, payload does not need network
+00:16:09,885 DEBUG anaconda: Left spoke: NetworkSpoke
+00:16:09,948 INFO anaconda: fs space: 50 GiB  needed: 1124.6 MiB
+00:16:12,800 DEBUG anaconda: Left hub: SummaryHub
+00:16:12,801 DEBUG anaconda: Entered hub: ProgressHub
+00:16:12,810 INFO anaconda: Adding controller: ProgressHub
+00:16:12,820 INFO anaconda: Module initialized: PasswordSpoke
+00:16:12,993 INFO anaconda: Module initialized: UserSpoke
+00:16:13,000 INFO anaconda: Initialization of all modules (2) has been started.
+00:16:13,001 INFO anaconda: All modules have been initialized.
+00:16:13,007 INFO anaconda: Running Thread: AnaInstallThread (140535870514944)
+00:16:14,517 INFO anaconda: Setting up the installation environment
+00:16:14,519 INFO anaconda: Setting up the installation environment
+00:16:15,200 INFO anaconda: Creating disklabel on /dev/sda
+00:16:15,380 INFO anaconda: Created disklabel on /dev/sda
+00:16:16,049 INFO anaconda: Creating xfs on /dev/sda1
+00:16:16,537 INFO anaconda: Created xfs on /dev/sda1
+00:16:17,004 INFO anaconda: Creating lvmpv on /dev/sda2
+00:16:18,023 INFO anaconda: Created lvmpv on /dev/sda2
+00:16:18,556 INFO anaconda: Creating swap on /dev/mapper/centos-swap
+00:16:18,675 INFO anaconda: Created swap on /dev/mapper/centos-swap
+00:16:18,996 INFO anaconda: Creating xfs on /dev/mapper/centos-home
+00:16:19,674 INFO anaconda: Created xfs on /dev/mapper/centos-home
+00:16:19,974 INFO anaconda: Creating xfs on /dev/mapper/centos-root
+00:16:20,399 INFO anaconda: Created xfs on /dev/mapper/centos-root
+00:16:21,772 INFO anaconda: Running pre-installation scripts
+00:16:21,773 INFO anaconda: Running pre-installation scripts
+00:16:22,584 DEBUG anaconda: Entered spoke: PasswordSpoke
+00:16:35,573 DEBUG anaconda: Left spoke: PasswordSpoke
+00:16:37,461 DEBUG anaconda: Entered spoke: UserSpoke
+00:16:45,194 INFO anaconda: setting NetworkSpoke status to: Not connected
+00:16:45,397 INFO anaconda: setting NetworkSpoke status to: Not connected
+00:17:01,763 DEBUG anaconda: Left spoke: UserSpoke
+00:22:26,299 INFO anaconda: Installing boot loader
+00:22:26,299 INFO anaconda: boot loader stage1 target device is sda
+00:22:26,299 INFO anaconda: boot loader stage2 target device is sda1
+00:22:26,302 DEBUG anaconda: new default image: <pyanaconda.bootloader.LinuxBootLoaderImage object at 0x7fd0feb20110>
+00:22:26,807 INFO anaconda: bootloader.py: mbr will be updated for grub2
+00:22:29,324 INFO anaconda: bootloader.py: used boot args: crashkernel=auto rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb quiet 
+00:22:32,570 INFO anaconda: Installing boot loader
+00:22:32,571 INFO anaconda: Performing post-installation setup tasks
+00:22:32,583 INFO anaconda: Performing post-installation setup tasks
+00:22:32,585 INFO anaconda: Thread Done: AnaInstallThread (140535870514944)
+00:22:32,779 INFO anaconda: Running Thread: AnaConfigurationThread (140535870514944)
+00:22:32,781 INFO anaconda: Configuring installed system
+00:22:34,544 INFO anaconda: Configuring installed system
+00:22:34,546 INFO anaconda: Writing network configuration
+00:22:34,547 INFO anaconda: setting installation environment hostname to ansible1
+00:22:34,821 DEBUG anaconda: Could not get default inet route device
+00:22:34,867 DEBUG anaconda: Could not get default inet6 route device
+00:22:34,911 INFO anaconda: Writing network configuration
+00:22:34,915 INFO anaconda: Creating users
+00:22:34,916 INFO anaconda: Clearing libuser.conf at /tmp/libuser.Qbppcr
+00:22:36,231 INFO anaconda: Creating users
+00:22:36,235 INFO anaconda: Configuring addons
+00:22:36,263 INFO anaconda: Configuring addons
+00:22:36,268 INFO anaconda: Generating initramfs
+00:23:43,553 INFO anaconda: Generating initramfs
+00:23:43,556 INFO anaconda: Running post-installation scripts
+00:23:43,557 INFO anaconda: Running kickstart %%post script(s)

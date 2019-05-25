@@ -1,0 +1,22 @@
+--- #deletion of the BARLog file older than 30 days
+- hosts: "{{ target }}"
+  vars_prompt:
+    - name: target
+      prompt: "Enter target(s) (separate by ',')"
+      private: no
+      when: target == ""
+  become: yes
+  connection: ssh
+  gather_facts: no
+  tasks:
+  - name: fining 30 days old file to delete
+    find:
+      paths: "/home/ansible/"
+      age: "30d"
+      file_type: file
+    register: fileolder30days
+  - name: deleting 30 days old file
+    file:
+      path: "{{ item.path }}"
+      state: absent
+    with_items: "{{ fileolder30days.files }}"

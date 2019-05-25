@@ -1,0 +1,49 @@
+13:14:12,182 DEBUG ifcfg: content of files (network initialization):
+13:14:12,191 DEBUG ifcfg: all settings: []
+13:14:12,482 DEBUG ifcfg: content of files (missing ifcfgs created for devices ['eth0']):
+13:14:12,484 DEBUG ifcfg: /etc/sysconfig/network-scripts/ifcfg-eth0:
+13:14:12,485 DEBUG ifcfg:   TYPE=Ethernet
+13:14:12,485 DEBUG ifcfg:   PROXY_METHOD=none
+13:14:12,485 DEBUG ifcfg:   BROWSER_ONLY=no
+13:14:12,487 DEBUG ifcfg:   BOOTPROTO=dhcp
+13:14:12,488 DEBUG ifcfg:   DEFROUTE=yes
+13:14:12,489 DEBUG ifcfg:   IPV4_FAILURE_FATAL=no
+13:14:12,489 DEBUG ifcfg:   IPV6INIT=yes
+13:14:12,489 DEBUG ifcfg:   IPV6_AUTOCONF=yes
+13:14:12,490 DEBUG ifcfg:   IPV6_DEFROUTE=yes
+13:14:12,491 DEBUG ifcfg:   IPV6_FAILURE_FATAL=no
+13:14:12,492 DEBUG ifcfg:   IPV6_ADDR_GEN_MODE=stable-privacy
+13:14:12,493 DEBUG ifcfg:   NAME=eth0
+13:14:12,493 DEBUG ifcfg:   UUID=a1eb95a3-6fa7-4955-a51d-352b70b1e75f
+13:14:12,493 DEBUG ifcfg:   DEVICE=eth0
+13:14:12,493 DEBUG ifcfg:   ONBOOT=no
+13:14:12,515 DEBUG ifcfg: all settings: [{'802-3-ethernet': {'auto-negotiate': False, 'mac-address-blacklist': [], 's390-options': {}}, 'connection': {'autoconnect': False, 'interface-name': 'eth0', 'uuid': 'a1eb95a3-6fa7-4955-a51d-352b70b1e75f', 'type': '802-3-ethernet', 'id': 'eth0', 'permissions': []}, 'ipv4': {'addresses': [], 'dns-search': [], 'route-data': [], 'dns': [], 'routes': [], 'address-data': [], 'method': 'auto'}, 'proxy': {}, 'ipv6': {'addresses': [], 'dns-search': [], 'route-data': [], 'dns': [], 'routes': [], 'address-data': [], 'method': 'auto'}}]
+18:44:33,202 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-eth0
+18:44:33,204 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-eth0
+18:44:33,207 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-eth0
+18:44:33,209 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-eth0
+18:44:33,210 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-eth0
+18:44:33,694 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-eth0
+18:44:33,696 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-eth0
+00:15:37,612 DEBUG ifcfg: content of files (nm-c-e run):
+00:15:37,612 DEBUG ifcfg: /etc/sysconfig/network-scripts/ifcfg-eth0:
+00:15:37,613 DEBUG ifcfg:   TYPE=Ethernet
+00:15:37,613 DEBUG ifcfg:   PROXY_METHOD=none
+00:15:37,615 DEBUG ifcfg:   BROWSER_ONLY=no
+00:15:37,615 DEBUG ifcfg:   BOOTPROTO=dhcp
+00:15:37,616 DEBUG ifcfg:   DEFROUTE=yes
+00:15:37,616 DEBUG ifcfg:   IPV4_FAILURE_FATAL=no
+00:15:37,616 DEBUG ifcfg:   IPV6INIT=yes
+00:15:37,617 DEBUG ifcfg:   IPV6_AUTOCONF=yes
+00:15:37,617 DEBUG ifcfg:   IPV6_DEFROUTE=yes
+00:15:37,617 DEBUG ifcfg:   IPV6_FAILURE_FATAL=no
+00:15:37,618 DEBUG ifcfg:   IPV6_ADDR_GEN_MODE=stable-privacy
+00:15:37,618 DEBUG ifcfg:   NAME=eth0
+00:15:37,618 DEBUG ifcfg:   UUID=a1eb95a3-6fa7-4955-a51d-352b70b1e75f
+00:15:37,618 DEBUG ifcfg:   DEVICE=eth0
+00:15:37,618 DEBUG ifcfg:   ONBOOT=no
+00:15:37,642 DEBUG ifcfg: all settings: [{'802-3-ethernet': {'auto-negotiate': False, 'mac-address-blacklist': [], 's390-options': {}}, 'connection': {'autoconnect': False, 'interface-name': 'eth0', 'uuid': 'a1eb95a3-6fa7-4955-a51d-352b70b1e75f', 'type': '802-3-ethernet', 'id': 'eth0', 'permissions': []}, 'ipv4': {'addresses': [], 'dns-search': [], 'route-data': [], 'dns': [], 'routes': [], 'address-data': [], 'method': 'auto'}, 'proxy': {}, 'ipv6': {'addresses': [], 'dns-search': [], 'route-data': [], 'dns': [], 'routes': [], 'address-data': [], 'method': 'auto'}}]
+00:15:43,881 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-eth0
+00:15:43,885 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-eth0
+00:16:09,785 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-eth0
+00:16:09,789 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-eth0

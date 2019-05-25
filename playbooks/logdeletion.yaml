@@ -1,0 +1,15 @@
+--- # test playbook
+- hosts: apacheweb
+  become: yes
+  connection: ssh
+  gather_facts: no
+  tasks:
+    - name: dleting it
+      find:
+        paths: "/home/ansible/1/*"
+      register: directories
+    - name: deleting all directory
+      files: 
+        path: "{{ item.path }}"
+        state: absent 
+      with_items: "{{ directories }}"
